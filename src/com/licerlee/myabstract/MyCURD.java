@@ -8,7 +8,6 @@ public class MyCURD extends AbstractCURD{
 	}
 	
 	
-	@Override
 	void save(){
 		System.out.println("save() called by "+ this.getClass().getSimpleName());
 	}

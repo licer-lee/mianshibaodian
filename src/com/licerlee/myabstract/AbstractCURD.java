@@ -21,6 +21,9 @@ public abstract class AbstractCURD {
 		System.out.println("delete() called by "+ this.getClass().getSimpleName());
 	}
 	
+	/**
+	 * abstract方式必须重写
+	 */
 	abstract void m1();
 	
 	
