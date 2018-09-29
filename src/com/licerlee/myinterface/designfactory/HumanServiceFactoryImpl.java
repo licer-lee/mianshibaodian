@@ -3,7 +3,7 @@ package com.licerlee.myinterface.designfactory;
 public class HumanServiceFactoryImpl implements HumanServiceFactory<HumanService>{
 
 	@Override
-	public HumanService getHumanService(Class c) {
+	public HumanService getHumanService(Class<? extends HumanService> c) {
 
 		HumanService hs = null;
 		try {
